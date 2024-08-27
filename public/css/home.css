@@ -1,0 +1,577 @@
+
+.background-container {
+    position: relative; /* Positioning context for absolute positioning of content */
+    width: 100%;
+    height: 130vh; /* Full viewport height */
+    background: url('/images/img-holder.png') no-repeat center center; /* Center the background image */
+    background-size: cover; /* Ensure the image covers the entire container */
+}
+
+/* Centering the content within the background container */
+.content{
+    height: 1020px;
+}
+/* Optional: Adding some styling to the h1 and p */
+.content h1 {
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 10px;
+    /* Build Your Dream Home with Us */
+
+position: absolute;
+width: 960px;
+height: 200px;
+left: calc(50% - 960px/2);
+top: 330px;
+
+font-family: 'Teko';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 100px;
+/* or 104% */
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFBEA;
+
+
+}
+
+.content p {
+    /* We aim to start “JOSHPUNAR” by offering an end-to-end solution for your dream home, ensuring a hassle-free experience and complete satisfaction with the final result */
+
+position: absolute;
+width: 1070px;
+height: 64px;
+left: calc(50% - 1070px/2);
+top: 567px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+text-align: center;
+letter-spacing: 0.005em;
+
+color: #FFFFFF;
+
+
+}
+
+.feature{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    margin-top: 667px;
+    box-sizing: border-box;
+    margin-left: 445px;
+    /* Group 255 */
+
+
+
+
+}
+
+.feature img {
+ 
+
+position: absolute;
+width: 44px;
+height: 44px;
+
+top: 685px;
+
+
+}
+
+.feature h3 {
+/* 2000+ Home */
+
+position: absolute;
+
+height: 67px;
+margin-left:50px;
+top: 677px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* or 100% */
+letter-spacing: 0.005em;
+
+color: #FFFFFF;
+text-align: left;
+
+
+}
+
+.feature .feature-number {
+    display: block; /* Ensure "1300+" is on its own line */
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    text-align: left;
+}
+
+.feature .feature-description {
+    display: block; /* Ensure description is on a new line */
+    font-size: 16px; /* Adjust size as needed */
+    font-family: 'DM Sans';
+}
+
+
+
+.feature-1 {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    margin-top: 667px;
+    box-sizing: border-box;
+    margin-left: 684px;
+    /* Group 255 */
+
+
+
+
+}
+
+.feature-1 img {
+ 
+
+position: absolute;
+width: 44px;
+height: 44px;
+
+top: 685px;
+
+
+}
+
+.feature-1 h3 {
+/* 2000+ Home */
+
+position: absolute;
+
+height: 67px;
+margin-left:50px;
+top: 677px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* or 100% */
+letter-spacing: 0.005em;
+
+color: #FFFFFF;
+
+
+}
+
+.feature-1 .feature-number {
+    display: block; /* Ensure "1300+" is on its own line */
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    text-align: left;
+}
+
+.feature-1 .feature-description {
+    display: block; /* Ensure description is on a new line */
+    font-size: 16px; /* Adjust size as needed */
+}
+.feature-2 {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    margin-top: 667px;
+    box-sizing: border-box;
+    margin-left: 1106px;
+    /* Group 255 */
+
+
+
+
+}
+
+.feature-2 img {
+ 
+
+position: absolute;
+width: 44px;
+height: 44px;
+
+top: 685px;
+
+
+}
+
+.feature-2 h3 {
+/* 2000+ Home */
+
+position: absolute;
+
+height: 67px;
+margin-left:50px;
+top: 677px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* or 100% */
+letter-spacing: 0.005em;
+
+color: #FFFFFF;
+
+
+}
+
+.feature-2 .feature-number {
+    display: block; /* Ensure "1300+" is on its own line */
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    text-align: left;
+}
+
+.feature-2 .feature-description {
+    display: block; /* Ensure description is on a new line */
+    font-size: 16px; /* Adjust size as needed */
+}
+/* Why Choose Us Section */
+.why-choose-us {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.reason-1 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.reason-2 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 205px;
+}
+.reason-3 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 205px;
+}
+.reason i {
+    font-size: 2rem;
+    color: #333; /* Adjust color as needed */
+    margin-bottom: 10px;
+}
+
+.reason-1 h3 {
+/* Difference */
+
+position: absolute;
+width: 216px;
+height: 22px;
+margin-left: 121px;
+top: 1072px;
+
+font-family: 'Teko';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 22px;
+/* identical to box height, or 34% */
+text-transform: capitalize;
+
+color: #008081;
+
+
+}
+
+.reason-1 p {
+/* Traditional method */
+
+position: absolute;
+width: 170px;
+height: 72px;
+margin-left: 254.28px;
+top: 1185px;
+
+font-family: 'Teko';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 36px;
+/* or 90% */
+text-align: center;
+text-transform: uppercase;
+
+color: #008081;
+
+
+}
+.reason-1 img{
+    /* Group 293 */
+
+position: absolute;
+width: 475px;
+height: 486.26px;
+left: 56px;
+top: 1330px;
+
+
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow to the text */
+    text-align: center;
+    white-space: nowrap; /* Prevents text wrapping */
+    /* Architect Planning */
+
+
+
+font-family: 'Teko';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 22px;
+/* identical to box height, or 91% */
+letter-spacing: -0.02em;
+
+color: #F4F4F4;
+
+
+}
+.reason-3 h3{
+  /* Design - Builds method */
+
+position: absolute;
+
+width: 216px;
+top: 1180px;
+left: 1494px;
+
+font-family: 'Teko';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 36px;
+/* or 90% */
+text-align: center;
+text-transform: uppercase;
+
+color: #008081;
+
+  
+}
+.img-1{
+    /* 2k6MgG2JVbJv7Je6aN0gaUeIJMG 1 */
+
+position: absolute;
+width: 170px;
+height: 170px;
+left: 1342px;
+top: 1342px;
+
+
+}
+.img-2{
+    /* Joshpunar Land to Home Approved Logo July 23-04 2 */
+
+position: absolute;
+width: 117px;
+height: 102px;
+left: 1195px;
+top: 1492px;
+
+
+
+}
+.img-3{
+/* Group 269 */
+
+position: absolute;
+width: 297.79px;
+height: 274.35px;
+left: 1566px;
+top: 1410px;
+}
+.img-4{
+    /* Group 318 */
+
+position: absolute;
+width: 76px;
+height: 40px;
+left: 1410px;
+top: 1539px;
+
+
+}
+.img-5{
+    /* Vector 13 */
+
+position: absolute;
+width: 119.5px;
+height: 21.05px;
+left: 1193.5px;
+top: 1468.45px;
+
+
+
+}
+.img-6{
+ /* Vector 14 */
+
+position: absolute;
+width: 119.5px;
+height: 21.05px;
+left: 1193.5px;
+top: 1620.05px;
+
+
+
+
+}
+.img-7{
+    /* Group 290 */
+
+position: absolute;
+width: 76px;
+height: 577px;
+left: 1078px;
+top: 1350px;
+
+
+}
+.why-choose-us h2{
+    /* Why To Choose Us! */
+
+position: absolute;
+width: 390px;
+height: 22px;
+left: calc(50% - 390px/2 - 51px);
+top: 1002px;
+
+font-family: 'Teko';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 22px;
+/* identical to box height, or 34% */
+text-transform: capitalize;
+
+color: #008081;
+
+
+}
+.steps h2{
+    /* 5 STEP TO BUILD YOUR DREAM HOME */
+
+position: absolute;
+width: 743px;
+height: 22px;
+left: calc(50% - 743px/2 + 27.5px);
+margin-top: 30px;
+
+font-family: 'Teko';
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 22px;
+/* identical to box height, or 31% */
+text-align: center;
+text-transform: lowercase;
+
+color: #008081;
+
+
+}
+.steps-all{
+    /* Rectangle 363 */
+
+box-sizing: border-box;
+display: flex;
+
+position: absolute;
+width: 300px;
+height: 403px;
+padding-left: 160px;
+top: 2143px;
+gap: 5px;
+
+background: #F4F4F4;
+
+}
+.step h5{
+    /* Consultation */
+
+position: absolute;
+width: 247px;
+height: 31px;
+
+
+font-family: 'Teko';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 31px;
+/* identical to box height, or 97% */
+
+color: #008081;
+
+
+}
+.step p{
+    /* Our team will meet with you to discuss your vision, style ,requirements, and budget for your home construction projects */
+
+position: absolute;
+width: 288px;
+height: 90px;
+margin-top: 30px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #000000;
+
+
+}

@@ -1,0 +1,213 @@
+/* Reset body margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+/* Optional: Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Offer Banner styles */
+.offer-banner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create four equal columns */
+    color: #fff; /* White text color */
+    padding: 10px 0;
+    font-size: 24px;
+    height: 65px;
+    background: #008081;
+    text-align: center;
+    max-width: 100%;
+    font-family: 'Teko', sans-serif;
+    position: fixed; /* Fix position at the top */
+    top: 0; /* Align to the top of the viewport */
+    left: 0; /* Align to the left of the viewport */
+    width: 100%; /* Full width of the viewport */
+    z-index: 1000; /* Ensure it's above other content */
+    /* Optional: add box-shadow for separation from content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.offer-column {
+    padding: 0 8px; /* Optional: Add some padding for spacing */
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed; /* Fix position at the top */
+    top: 65px; /* Align below the offer banner */
+    left: 0; /* Align to the left of the viewport */
+    width: 100%; /* Full width of the viewport */
+    background-color: #ffffff; /* Background color for the navbar */
+    border-bottom: 1px solid #ddd; /* Optional border */
+    gap: 20px; /* Space between elements */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.navbar-logo {
+    margin-right: auto;
+    margin-left: 160px;
+}
+
+.navbar-logo img {
+    width: 83px;
+    height: 72px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+    /* Group 454 */
+
+
+left: 515px;
+
+
+
+}
+
+.navbar ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* Button styles */
+.navbar-button .button {
+    background-color: #F15A29; /* Button background color */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px; /* identical to box height, or 110% */
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    left: 1300px;
+}
+.navbar ul li a .fa-chevron-down {
+    font-size: 14px; /* Size of the dropdown icon */
+    color: #000; /* Color of the dropdown icon */
+    transition: transform 0.3s ease; /* Smooth rotation effect */
+}
+
+/* Optional: Rotate the icon when the dropdown is open */
+.navbar ul li a.dropdown-open .fa-chevron-down {
+    transform: rotate(180deg); /* Rotate the icon */
+}
+.navbar-button .button .fa-arrow-right {
+    font-size: 16px; /* Size of the arrow icon */
+    color: #FFFFFF; /* Color of the arrow icon */
+}
+
+.navbar-button .button:hover .fa-arrow-right {
+    color: #FFDAA3; /* Change color on hover (optional) */
+}
+/* New styles for contact section */
+.navbar-contact {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+}
+
+.navbar-contact i {
+    font-size: 1.2rem; /* Adjust icon size */
+    color: #FFFFFF; /* Icon color */
+    background-color: #008081;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.navbar-contact .phone-number {
+    font-size: 1rem; /* Font size for phone number */
+    color: #000; /* Phone number color */
+    font-family: 'DM Sans';
+}
+
+.vertical-line {
+    width: 1px; /* Width of the line */
+    background-color: #000; /* Color of the line */
+    height: 40px; /* Adjust height according to the navbar height */
+    /* Space on each side of the line */
+    left: 1515px;
+}
+
+/* Responsive adjustments for phone contact */
+@media (max-width: 768px) {
+    .navbar-contact {
+        margin-top: 10px; /* Adjust margin for mobile view */
+        margin-left: 0; /* Remove left margin for small screens */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .offer-banner {
+        grid-template-columns: 1fr; /* Stack columns on smaller screens */
+    }
+
+    .offer-column {
+        padding: 10px 0; /* Adjust padding for stacked columns */
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        width: 100%; /* Ensure full width for mobile navigation */
+    }
+
+    .navbar ul li {
+        width: 100%;
+    }
+
+    .navbar ul li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-button {
+        margin-top: 10px; /* Space between links and button on small screens */
+    }
+}
+
+/* Add top padding to content to account for fixed navbar */
+.content {
+    padding-top: 130px; /* Adjust based on combined height of offer-banner and navbar */
+}
